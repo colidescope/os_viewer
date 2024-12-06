@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12f74166-be96-4484-9baf-fbc821868f87/deploy-status)](https://app.netlify.com/sites/neon-choux/deploys)
+
 # vue-three-starter
 
 This template should help get you started developing with Vue 3 in Vite.
