@@ -1,19 +1,17 @@
 <template>
-  <div id="app">
-    <div class="controls">
-      <label>
-        Width:
-        <input type="range" v-model="tableWidth" min="50" max="300" />
-        {{ tableWidth }}
-      </label>
-      <label>
-        Length:
-        <input type="range" v-model="tableDepth" min="50" max="300" />
-        {{ tableDepth }}
-      </label>
-    </div>
-    <div ref="threeCanvas" class="three-container"></div>
+  <div class="controls">
+    <label>
+      Width:
+      <input type="range" v-model="tableWidth" min="50" max="300" />
+      {{ tableWidth }}
+    </label>
+    <label>
+      Length:
+      <input type="range" v-model="tableDepth" min="50" max="300" />
+      {{ tableDepth }}
+    </label>
   </div>
+  <div ref="threeCanvas" class="three-container"></div>
 </template>
 
 <script setup>
