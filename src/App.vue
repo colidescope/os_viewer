@@ -362,8 +362,9 @@ onMounted(() => {
 }
 
 .action-btn {
-  padding: 5px 10px;
+  padding: 10px 15px;
   cursor: pointer;
+  border: 1px solid lightgray;
 }
 
 .float-right {
@@ -406,6 +407,14 @@ onMounted(() => {
     height: 100%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 999;
+  }
+
+  .btn-container {
+    padding-bottom: 3rem;
+  }
+
+  .float-left {
+    bottom: 3rem;
   }
 }
 </style>
